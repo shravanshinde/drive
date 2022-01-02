@@ -1,0 +1,253 @@
+:root{
+    --light-grey : #d7dcdd57;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.blur{
+    opacity: 80%;
+}
+
+.center {
+    text-align: center;
+}
+
+/* ******************************* Navbar ************************************ */
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+}
+
+/* --------------- Navbar Left ---------------- */
+
+.nav-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.logo-name{
+    font-weight: 100;
+    font-family: sans-serif;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    opacity: 80%;
+}
+
+.nav-left > .gdrive-image{
+    height: 2rem;
+}
+
+.nav-center{
+    flex: 3;
+    /* background-color: pink; */
+}
+
+.nav-right{
+    flex: 1;
+    background-color: white;
+}
+
+/* ---------- nav-center ------------------- */
+.nav-center {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox{
+    width: 90%;
+    height: 80%;
+    background-color: #d7dcdd57;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.search-input{
+    padding: 10px;
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+/* ********************************** Nav right **************************** */
+.nav-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.r1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.r2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.login-image{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+}
+
+/* ***************************** Side Menu and Container******************************** */
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+aside {
+    /* background-color: red; */
+    height: 100%;
+    width: 20%;
+    padding: 1rem;
+}
+
+.btn-new{
+    padding: 10px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.616);
+    cursor: pointer;
+}
+
+.p{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    opacity: 80%;
+    /* margin-top: 2rem; */
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.p:hover{
+    background-color: rgba(128, 128, 128, 0.432);
+}
+.side-iconns {
+    opacity: 80%;
+    margin-right: 1rem;
+}
+
+
+/* ***************** Container center **************** */
+.container-center{
+    flex: 20;
+    /* background-color: red; */
+}
+
+/* Top row  */
+.top-row{
+    padding: 1rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-row-icons {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+option{
+    font-size: 1rem;
+}
+
+select{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.suggested {
+    font-size: 15px;
+}
+
+.cardwrapper{
+    /* background-color: red; */
+    height: 15rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1vw;
+    margin:auto;
+    margin-top: 3rem;
+}   
+
+.card {
+    background-color: white;
+    flex: 1;
+    height: 100%;
+    box-shadow: 0 2px 5px grey;
+    background-color: rgba(128, 128, 128, 0.192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding:2.1rem; */
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+.card-data {
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.671);
+}
+
+
+
+
+/* Right container  */
+.right-container{
+    flex: 1;
+    border: 1px solid rgba(128, 128, 128, 0.363);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}

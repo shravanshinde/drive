@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Drive - Google Drive</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="icon" href="images/gdrive.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <!--***************** Navbar ********************** -->
+    <nav>
+        <div class="nav-left">
+            <!-- nav-left  -->
+            <img class="gdrive-image" src="images/gdrive.png" alt="Google Drive Logo" />
+            <h1 class="logo-name">Drive</h1>
+        </div>
+
+        <!-- nav-center  -->
+        <div class="nav-center">
+            <div class="searchbox">
+                <span class="material-icons blur">
+                    search
+                </span>
+                <input class="search-input" type="text" placeholder="Search in Drive" />
+                <span class="material-icons blur">
+                    tune
+                </span>
+            </div>
+        </div>
+
+        <!-- nav-right  -->
+        <div class="nav-right">
+            <div class="r1">
+                <span class="material-icons blur">
+                    help_outline
+                </span>
+
+                <span class="material-icons blur">
+                    settings
+                    </span>
+            </div>
+            <div class="r2">
+                <span class="material-icons blur">
+                    apps
+                </span>
+
+                <img class="login-image" src="images/10.png" alt="">
+                    
+            </div>
+        </div>
+    </nav>
+
+   <!-- Side Bar and cards  -->
+    <div class="container">
+        <aside>
+            <button class="btn-new">
+                <span class="material-icons">
+                    add
+                </span>
+                New
+            </button>
+
+            <p class="p"><span class="material-icons side-iconns">
+                storage
+                </span>My Drive
+            </p>
+            <p class="p"><span class="material-icons side-iconns">
+                devices
+            </span>Computers</p>
+            <p class="p"><span class="material-icons side-iconns">
+                people
+            </span>Shared with me</p>
+            <p class="p"><span class="material-icons side-iconns">
+                watch_later
+                </span>Recent</p>
+            <p class="p"><span class="material-icons side-iconns">
+                star_border
+                </span>Starred</p>
+            <p class="p"><span class="material-icons side-iconns">
+                delete_outline
+                </span>Trash</p>
+        </aside>
+
+        <!-- Center Container  -->
+        <div class="container-center">
+            <div class="top-row">
+                <select name="My Drive" id="" aria-label="My Drive" aria-placeholder="My Dtive">
+                    <optgroup>
+                        <option>My Drive</option>
+                        <option>New Folder</option>
+                    </optgroup>
+
+                    <optgroup>
+                        <option value="">Upload Files</option>
+                        <option value="">Upload Folder</option>
+                    </optgroup>
+
+                    <optgroup>
+                        <option value="">Google Docs</option>
+                        <option value="">Google Sheets</option>
+                        <option value="">Google Slides</option>
+                        <option value="">Google Forms</option>
+                    </optgroup>
+
+                    <option value="">More</option>
+                </select>
+
+                <div class="top-row-icons blur">
+                    <span class="material-icons">
+                        view_list
+                    </span>
+        
+                    <span class="material-icons blur">
+                        info
+                    </span>
+                </div>
+            </div>
+
+            <p class="suggested blur">Suggested</p>
+
+            <div class="cardwrapper">
+                <div class="card">
+                    <img src="https://www.falsof.com/images/Document_Mutual_Release.gif" alt="">
+                    <div class="card-data">
+                        <p class="center blur"> Document 1</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.falsof.com/images/Document_Mutual_Release.gif" alt="">
+                    <div class="card-data">
+                        <p class="center blur"> Document 1</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="https://www.falsof.com/images/Document_Mutual_Release.gif" alt="">
+                    <div class="card-data">
+                        <p class="center blur"> Document 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right container  -->
+        <div class="right-container">
+            <i class="fas fa-calendar-week"></i>
+            <i class="far fa-lightbulb"></i>
+            <i class="fas fa-tasks"></i>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
